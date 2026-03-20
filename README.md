@@ -2,14 +2,12 @@
 
 # Synchmod
 
-Synchmod is a batChmod-clone but for Apple Silicon instead.
-It's only for changing file/folder ownership and permissions, with no other options found in the OG app.
-Uses SMJobBless privileged helper tool.
+Synchmod is a clone for the beloved batChmod, but for Apple Silicon.
+It's only for changing file/folder ownership and permissions right now, with no other options found in the OG app. Uses SMJobBless privileged helper tool.
 
 ## Disclaimer + TOS
 
-Please use this at your own risk. It works for me, but I can’t guarantee it’ll work perfectly on every setup.
-By using Synchmod, I assume no responsibility if it messes up your system.
+Use this at your own risk. It works for me, but I can’t guarantee it will work as expected on your setup. By using Synchmod, I assume no responsibility if it messes up your system.
 
 ## Usage
 
@@ -27,7 +25,6 @@ Project file: `Synchmod.xcodeproj`
 
 Change the targets' Team and Signing Certificate with your Apple Developer account/team as `SMJobBless` requires proper signing.
 
-
 ## Elevated Privileges
 
 Synchmod will ask for your password on first launch first apply. This is to install the helper tool in so that it can makes your changes if `sudo` is required (i.e. changing owner from `root`, etc)
@@ -40,8 +37,9 @@ They will be installed in the following locations:
 
 ### Notes
 
-You may need to run the included `SMJobBlessUtil.py` after building to update the `Info.plist` identifier if your changes don't apply.
-
-I've set the project to build for only `arm64` so change accordingly if you need a Universal version.
+You may need to run the included `SMJobBlessUtil.py` after building to update the `Info.plist` identifier if the app fails to enact the changes.
 
 [Credits: mikeyh](https://gist.github.com/mikeyh/89a1e2ecc6849ff6056b7391c5216799)
+
+I've set the project to build for only `arm64` so change accordingly if you need a Universal build.
+
