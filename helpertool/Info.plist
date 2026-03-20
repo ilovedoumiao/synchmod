@@ -4,24 +4,15 @@
 <dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.doumiao.Synchmod.helpertool</string>
-	<key>CFBundleName</key>
-	<string>Synchmod Helper</string>
-	<key>CFBundleDisplayName</key>
-	<string>Synchmod Helper</string>
-	<key>Label</key>
-	<string>com.doumiao.Synchmod.helpertool</string>
-	<key>MachServices</key>
-	<dict>
-		<key>com.doumiao.Synchmod.helpertool</key>
-		<true/>
-	</dict>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
 	<key>SMAuthorizedClients</key>
 	<array>
-		<string>identifier "com.doumiao.Synchmod" and anchor apple generic and certificate leaf[subject.OU] = "23WTUY6U3Z"</string>
+		<string>identifier "com.doumiao.Synchmod" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: freethepeanut@gmail.com (7DQ9S8H2G6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 	</array>
 </dict>
 </plist>
