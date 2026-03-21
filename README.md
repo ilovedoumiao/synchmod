@@ -6,7 +6,7 @@
 
 <p align="center">
   <img alt="Synchmod - A clone for the beloved batChmod, but for Apple Silicon"
-       src="ss-synchmod.jpg">
+       src="ss-synchmod.jpg" width="640">
 </p>
 
 Synchmod is a clone for the beloved batChmod, but for Apple Silicon.
